@@ -31,7 +31,7 @@ main {
 
 .header__lamp {
   position: absolute;
-  display: flex;
+  display: var(--display-lamp);
   align-items: center;
   color: var(--accent-color);
   gap: 10px;
@@ -52,8 +52,8 @@ main {
   content: '';
   position: absolute;
   display: block;
-  border-inline-end: 1px solid var(--accent-color);
-  border-block-start: 1px solid var(--accent-color);
+  border-inline-end: 1px solid var(--menu-color);
+  border-block-start: 1px solid var(--menu-color);
   block-size: 25px;
   inline-size: 25px;
   inset-inline-end:20px;
@@ -64,8 +64,8 @@ main {
   content: '';
   position: absolute;
   display: block;
-  border-inline-start: 1px solid var(--accent-color);
-  border-block-end: 1px solid var(--accent-color);
+  border-inline-start: 1px solid var(--menu-color);
+  border-block-end: 1px solid var(--menu-color);
   block-size: 25px;
   inline-size: 25px;
   inset-inline-start:20px;
@@ -88,7 +88,7 @@ main {
   border: none;
   padding: 0px 13px;
   text-transform: lowercase;
-  color: var(--accent-color);
+  color: var(--menu-color);
   cursor: pointer;
 }
 
@@ -101,11 +101,11 @@ main {
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--menu-color);
 }
 
-.header__theme-menu-button:active {
-  outline: 1px solid var(--accent-color);
+.header__theme-menu-button_active {
+  outline: 1px solid var(--menu-color);
 }
 
 .title {
@@ -116,7 +116,7 @@ main {
 
 .header__title {
   justify-self: start;
-  text-shadow: 4px 4px 0px var(--accent-color);
+  text-shadow: 4px 4px 0px var(--title-shadow-color);
 }
 
 .header__text {
@@ -126,7 +126,7 @@ main {
 }
 
 .title__decor {
-  color: #000028;
+  color: var(--title-decor-color);
   font-weight: 700;
   font-size: var(--font-size);
   background-color: var(--accent-color);
@@ -196,8 +196,8 @@ main {
   content: '';
   display: block;
   justify-self: end;
-  border-inline-end: 1px solid var(--accent-color);
-  border-block-start: 1px solid var(--accent-color);
+  border-inline-end: 1px solid var(--menu-color);
+  border-block-start: 1px solid var(--menu-color);
   block-size: 25px;
   inline-size: 25px;
 }
@@ -206,8 +206,8 @@ main {
   content: '';
   display: block;
   align-self: flex-end;
-  border-inline-start: 1px solid var(--accent-color);
-  border-block-end: 1px solid var(--accent-color);
+  border-inline-start: 1px solid var(--menu-color);
+  border-block-end: 1px solid var(--menu-color);
   block-size: 25px;
   inline-size: 25px;
 }
@@ -215,7 +215,7 @@ main {
 .footer__title {
   justify-self: center;
   align-self: center;
-  text-shadow: 2px 2px 0px var(--accent-color);
+  text-shadow: 2px 2px 0px var(--title-shadow-color);
 }
 
 @media (width >= 1024px) {
