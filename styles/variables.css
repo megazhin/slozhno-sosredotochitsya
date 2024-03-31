@@ -6,5 +6,6 @@
   --font-family: 'IBM Plex Mono', monospace;
   --font-size: 18px;
   --line-height: 23.4px;
-  --hover-border-color: rgb(255, 0, 112, 0.4)
+  --hover-border-color: rgb(255, 0, 112, 0.4);
+  --margin-header-text: 114px;
 }
