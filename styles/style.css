@@ -36,7 +36,7 @@ main {
   color: var(--accent-color);
   gap: 10px;
   inset-block-start: var(--page-padding);
-  inset-inline-end: calr(var(--page-padding) + 8px);
+  inset-inline-end: calc(var(--page-padding) + 8px);
 }
 
 .header__lamp::after {
