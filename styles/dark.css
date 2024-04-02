@@ -14,7 +14,7 @@
     --title-shadow-color: #ff0070;
     --display-lamp: flex;
     --title-decor-color: #000028;
-
+    --background-color: #000028;
   }
   
   .page {
@@ -31,5 +31,6 @@
   --title-shadow-color: #ff0070;
   --display-lamp: flex;
   --title-decor-color: #000028;
+  --background-color: #000028;
   background-image: url(../images/cover-image-dark.png);
 }

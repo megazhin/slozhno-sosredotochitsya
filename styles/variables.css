@@ -7,6 +7,14 @@
   --font-size: 18px;
   --line-height: 23.4px;
   --page-padding: 20px;
-  --hover-border-color: rgb(255, 0, 112, 0.4);
   --margin-header-text: 114px;
+  --accent-color: #ff0070;
+  --text-color: #F1B2CE;
+  --title-color: #DB00FF;
+  --hover-border-color: rgb(255, 0, 112, 0.4);
+  --menu-color: #ff0070;
+  --title-shadow-color: #ff0070;
+  --display-lamp: flex;
+  --title-decor-color: #000028;
+  --background-color: #000028;
 }

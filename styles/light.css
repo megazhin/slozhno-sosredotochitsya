@@ -11,9 +11,10 @@
     --accent-color: #ff8dcb;
     --menu-color: #353430;
     --hover-border-color: rgba(50, 49, 45, 0.4);
-    --title-shadow-color: #ff0070;
+    --title-shadow-color: #ff8dcb;
     --display-lamp: none;
     --title-decor-color: #353430;
+    --background-color: #fff1f7;
   }
 
   .page {
@@ -28,7 +29,8 @@
   --accent-color: #ff8dcb;
   --menu-color: #353430;
   --hover-border-color: rgba(50, 49, 45, 0.4);
-  --title-shadow-color: #ff0070;
+  --title-shadow-color: #ff8dcb;
   --display-lamp: none;
   --title-decor-color: #353430;
+  --background-color: #fff1f7;
 }
