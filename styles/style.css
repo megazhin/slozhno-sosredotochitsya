@@ -154,7 +154,7 @@ main {
 
 .factors .main__section-title {
   margin-block-end: 20px;
-  width: max(315px);
+  width: 315px;
 }
 
 .main__section-content {
@@ -208,14 +208,15 @@ main {
 
 @media (width >= 1024px) {
 
-  .main__section:not(:nth-child(2),:nth-child(4)) {
-    column-gap: 30px;
-  }
-
   .factors .main__section {
     grid-template-columns: repeat(3, 1fr);
     grid-column: span 1;
     grid-row: 2 / 3;
+  }
+
+  .cause,
+  .advices {
+    column-gap: 30px;
   }
 
   .gallery {
@@ -246,7 +247,7 @@ main {
     }
 
     .factors .main__section-title {
-      width: max(236px);
+      width: 236px;
     }
 
     .header__text {
@@ -308,7 +309,7 @@ main {
   }
 
   main {
-    margin: 40px 0px;
+    padding: 40px var(--page-padding);
     gap: 50px;
   }
 
